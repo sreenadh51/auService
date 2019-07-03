@@ -1,0 +1,30 @@
+{
+  "name": "authentication-api",
+  "version": "0.2.0002",
+  "description": "Authentication API that Create token and store in redis",
+  "main": "server.js",
+  "scripts": {
+    "docker": "node server.js"
+  },
+  "author": "patriclee",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "boom": "4.2.0",
+    "confidence": "3.0.2",
+    "dotenv": "4.0.0",
+    "glue": "4.1.0",
+    "hapi": "16.1.0",
+    "hapi-auth-jwt2": "7.2.4",
+    "hapi-swagger": "7.6.0",
+    "inert": "4.1.0",
+    "ioredis": "2.5.0",
+    "joi": "10.2.1",
+    "jsonwebtoken": "7.2.1",
+    "mongodb": "2.2.31",
+    "mssql": "4.0.1",
+    "showdown": "1.7.1",
+    "vision": "4.1.1",    
+    "wreck": "10.0.0"
+  }
+}
